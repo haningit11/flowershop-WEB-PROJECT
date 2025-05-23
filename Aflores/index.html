@@ -1,0 +1,40 @@
+<!--Hanin Idriss 22230309-->
+<!DOCTYPE html>
+<html><!--this is the login page but i called it index.html so that it apperas first-->
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowers-Flowershop - Login</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="shortcut icon" href="images/fav-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="login-page-container">
+    <!--logo -->
+    <a href="#" class="login-page-logo">
+      <img src="images/log2.png" alt="BloomHi Logo">
+    </a>
+    
+    <!-- Login Form -->
+    <div class="login-form">
+      <strong>Log In</strong>
+      <form id="login-form" method="POST" action="login.php">
+        <input type="email" name="lemail" id="login-email" placeholder="user@hotmail.com" required>
+        <input type="password" name="lpassword" id="login-password" placeholder="Password" required>
+        <input type="submit" value="Log In" class="login-signup-btn-inpu">
+      </form>
+      <div class="form-btns">
+        <a href="#" class="forget">Forgot your Password?</a>
+        <a href="signup.html" class="sign-up-btn">Create Account</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

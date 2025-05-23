@@ -1,0 +1,719 @@
+<!--Hanin Idriss 22230309-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowers Flowershop</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <!--for the short cut f ic0on-->
+  <script src="script.js"></script>
+
+  <link rel="shortcut icon" href="images/fav-icon.png">
+  <!--i imported poppins font family from google fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!--main=----------------------------------------->
+
+  <section id="main">
+
+    <!--header--------------------------------------->
+
+    <header>
+
+      <!--header- -top------------------------------->
+
+      <div class="header-top">
+
+        <!--location--------------------------------->
+
+        <div class="nav-location">
+          <a href="https://maps.app.goo.gl/aP16LsSRnCdU2yEQ6">
+
+            <!--location icon svg link -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="1em" height="1em">
+              <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+            </svg>
+            Store Location
+          </a>
+        </div>
+
+        <!--logo------->
+        <a href="#" class="logo">
+          <img src="images/log2.png" alt="logo">
+        </a>
+
+        <!--nav-btns------>
+
+        <div class="nav-btns">
+
+          <!--search icon svg-->
+          <a href="#" class="nav-search">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em">
+              <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+            </svg>
+          </a>
+
+          <!--hamburger menu icon for phones and tablets in responsive-->
+         <a href="#" class="menu-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em">
+          <path fill="#3f3f3f" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+          </svg>
+          </a>
+
+          <!--user svg-->
+          <a href="index.html" class="nav-user">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em">
+            <path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/>
+          </svg>
+          </a>
+
+          <!--cart svg-->
+          <a href="#;" class="nav-cart">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" height="1em" width="1em">
+              <path d="M0 24C0 10.7 10.7 0 24 0H96c11.5 0 21.4 8.2 23.6 19.5L122 32H541.8c21.2 0 36.5 20.3 30.8 40.7l-54 192c-3.9 13.8-16.5 23.3-30.8 23.3H170.7l9.2 48H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H160c-11.5 0-21.4-8.2-23.6-19.5L76.1 48H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+            </svg>
+            
+          </a>
+
+
+        </div>
+
+      </div>
+
+      <!--**navigation**************-->
+
+      <nav class="navigation">
+
+        <!--menuuu--------------->
+
+        <ul class="menu">
+          <li><a href="#main" class="home">Home</a></li>
+          <li><a href="#category">Category</a></li>
+          <li><a href="#shopping-banner">Shop</a></li>
+          <li><a href="#popular">Popular</a></li>
+          <li><a href="#recent-products">Recent</a></li>
+        </ul>
+
+
+      </nav>
+
+    </header>
+
+    <!--=content========-->
+
+    <div class="main-content">
+
+
+
+      <!--text-->
+      <div class="main-content-text">
+        <strong>Collection</strong>
+        <h1>Rich <br> Collection Of Flowers</h1>
+        <p>Discover our exquisite selection of blooms, perfect for every occasion. From vibrant seasonal arrangements to timeless classics, each flower is chosen to bring beauty and joy to your space.</p>
+        <a href="#">Shop Now</a>
+      </div>
+      <!--img-->
+      <div class="main-content-img">
+        <img src="images/model.png" alt="model">
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+
+  <!--Search---------------------------------------->
+  <div class="search-bar">
+    <!--search input-->
+    <form class="search-input">
+      <input type="text" name="search" placeholder="Search for Flowers">
+      <!--cancel btn-->
+      <a href="#" class="search-cancel">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="1em" width="1em" fill="black">
+        <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3l105.4 105.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256l105.3-105.4z"/>
+        </svg><!--x-svg-->
+
+      </a>
+    </form>
+
+  </div>
+
+
+  <!--login and signup Form------------------------->
+
+ 
+
+
+  <!---===category=============--------------------->
+
+  <section id="category">
+    <!--box1-->
+    <a href="javascript:void(0)" class="category-box">
+      <div class="category-box">
+        <!--img-->
+        <div class="category-box-img">
+          <img src="images/c1.png" alt="Annual Flower">
+        </div>
+        <!--text-->
+        <strong>Annual Flower</strong>
+      </div>
+    </a>
+
+    <!--box2-->
+    <a href="javascript:void(0)" class="category-box">
+      <div class="category-box">
+        <!--img-->
+        <div class="category-box-img">
+          <img src="images/c2.png" alt="Perennial Flower">
+        </div>
+        <!--text-->
+        <strong>Perennial Flower</strong>
+      </div>
+    </a>
+
+    <!--box3-->
+    <a href="javascript:void(0)" class="category-box">
+      <div class="category-box">
+        <!--img-->
+        <div class="category-box-img">
+          <img src="images/c3.png" alt="Biennial Flower">
+        </div>
+        <!--text-->
+        <strong>Biennial Flower</strong>
+      </div>
+    </a>
+
+    <!--box4-->
+    <a href="javascript:void(0)" class="category-box">
+      <div class="category-box">
+        <!--img-->
+        <div class="category-box-img">
+          <img src="images/c4.png" alt="Rose Flower">
+        </div>
+        <!--text-->
+        <strong>Rose Flower</strong>
+      </div>
+    </a>
+
+    <!--box5-->
+    <a href="javascript:void(0)" class="category-box">
+      <div class="category-box">
+        <!--img-->
+        <div class="category-box-img">
+          <img src="images/c5.png" alt="SunFlower">
+        </div>
+        <!--text-->
+        <strong>SunFlower</strong>
+      </div>
+    </a>
+
+    <!--box6-->
+    <a href="javascript:void(0)" class="category-box">
+      <div class="category-box">
+        <!--img-->
+        <div class="category-box-img">
+          <img src="images/c6.png" alt="Hydrangea">
+        </div>
+        <!--text-->
+        <strong>Hydrangea</strong>
+      </div>
+    </a>
+  </section>
+
+  <!--popular==================--------------------->
+
+  <section id="popular">
+
+    <!--heading******-->
+    <h2>Popular Flowers</h2>
+
+    <!--container*****-->
+
+    <div class="popular-whole-container">
+      <!--===-=-=product-conatiner=======-=-=--->
+      <div class="popular-product-container">
+
+        <!--box1-->
+        <div class="product-box">
+          <!--img-->
+          <a href="#" class="product-box-img">
+            <img src="images/p1.png" alt="product">
+            <span>New</span>
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="#" class="product-text-title">Orange Pot</a>
+            <span class="pricey">21$ <del>30$</del> </span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+                <!--box2-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/p2.png" alt="product">
+            <span>New</span>
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Purple Pot</a>
+            <span class="pricey">10$ <del>20$</del> </span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+                <!--box3-->
+        <div class="product-box">
+          <!--img-->
+          <a href="#" class="product-box-img">
+            <img src="images/p3.png" alt="product1">
+            
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Yellow Pot</a>
+            <span class="pricey">23$</span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+                <!--box4-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/p4.png" alt="product1">
+            <span>New</span>
+            
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Red Pot</a>
+            <span class="pricey">25$</span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+                <!--box5-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/p5.png" alt="product1">
+            
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Colorful Pot</a>
+            <span class="pricey">20$ <del>40$</del> </span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+                <!--box6-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/p6.png" alt="product1">
+            
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Pink Pot</a>
+            <span class="pricey">20$</span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!--banner-=-=============---------->
+      <div class="popular-banner">
+      <!--text-->
+      <div class="popular-banner-text">
+        <h3>Summer Flower Collection</h3>
+        <a href="#">Shop Now</a>
+      </div>
+      <!--img-->
+      <div class="popular-banner-img">
+        <img src="images/banner.webp" alt="Banner">
+      </div>
+    </div>
+    </div>
+
+
+  </section>
+
+  <!--Shopping-banner-------------================-->
+  <section id="shopping-banner">
+    <div class="shopping-banner-container">
+      <!--text-->
+      <div class="shopping-banner-text">
+        <strong>Handmade Pots</strong>
+        <h3>Thick Clay Flower Pot</h3>
+        <p>Holds dirt. Survives weather. Looks better with age. For plants that outlive your resolutions.</p>
+        <a href="#">Get One Now!</a>
+      </div>
+      <!--img-->
+      <div class="shopping-banner-img">
+        <img src="images/shoes-bag.png" alt="banner">
+      </div>
+    </div>
+  </section>
+
+  <!--recent add-----======================--------->
+  <section id="recent-products">
+
+    <!--heading-->
+    <h2>Recent Flowers</h2>
+
+    <!--container==-->
+    <div class="recent-product-container">
+
+      <!--box1-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/p7.png" alt="product">
+            <span>New</span>
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Petunias</a>
+            <span class="pricey">15$</span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+        <!--box2-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/pl4.webp" alt="product">
+            <span>New</span>
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Agave Plant</a>
+            <span class="pricey">25$</span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+        <!--box3-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/p9.png" alt="product">
+            <span class="pricey">New</span>
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Yellow Tulip</a>
+            <span class="pricey">15$</span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+             </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+        <!--box4-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/p10.png" alt="product">
+            <span>New</span>
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Yellow Tulips</a>
+            <span class="pricey">25$</span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!--Plant Collection===========----------------------------->
+  <section id="recent-products">
+
+    <!--heading-->
+    <h2>Plant Collection</h2>
+
+    <!--container==-->
+    <div class="recent-product-container">
+
+      <!--box1-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/pl1.webp" alt="product">
+            
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Winter Jasmine</a>
+            <span class="pricey">20$ <del>40$</del> </span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+        <!--box2-->
+        <div class="product-box">
+          <!--img-->
+          <a href="#" class="product-box-img">
+            <img src="images/pl2.webp" alt="product">
+            
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Summer Begonia</a>
+            <span class="pricey">35.95$</span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+        <!--box3-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/pl3.webp" alt="product">
+            
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Spring Orchid</a>
+            <span class="pricey">26.99$</span>
+            <a href="javascript:void(0)" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+        <!--box4-->
+        <div class="product-box">
+          <!--img-->
+          <a href="javascript:void(0)" class="product-box-img">
+            <img src="images/p8.png" alt="product">
+            
+          </a>
+          <!--text-->
+          <div class="product-box-text">
+            <a href="javascript:void(0)" class="product-text-title">Fall Daisy Pot</a>
+            <span class="pricey">28$</span>
+            <a href="javascript:void(0);" class="product-cart-btn">
+              <!--svg addd to cart-->
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+             <path fill="currentColor" d="M8 5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h3a1 1 0 0 1 1 1v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V8a1 1 0 0 1 1-1h3V5zm2 2h4V5h-4v2z"/>
+              </svg>
+              Add To Cart
+            </a>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!--services---------------==========================--->
+
+  <section class="services">
+    <!--service-box-->
+    <div class="service-box">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" height="1em" width="1em">
+      <path d="M112 0C85.5 0 64 21.5 64 48V96H16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 272c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 48c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 240c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 208c8.8 0 16 7.2 16 16s-7.2 16-16 16H64V384c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 178.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H112zM544 237.3V256H416V160h50.7L544 237.3zM160 368c0 26.5 21.5 48 48 48s48-21.5 48-48-21.5-48-48-48-48 21.5-48 48zm272 48c26.5 0 48-21.5 48-48s-21.5-48-48-48-48 21.5-48 48 21.5 48 48 48z"/>
+      </svg>
+      <span>Free Shipping</span>
+      <p>Free shipping for orders over 100$</p>
+    </div>
+
+    <!--service-box-->
+    <div class="service-box">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em" width="1em">
+      <path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"/>
+      </svg>
+      <span>Available 24/7</span>
+      <p>we are Available 24 hours a day</p>
+    </div>
+
+    <!--service-box-->
+    <div class="service-box">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" height="1em" width="1em"><path d="M16.08,59.26A8,8,0,0,1,0,59.26a59,59,0,0,1,97.13-45V8a8,8,0,1,1,16.08,0V33.35a8,8,0,0,1-8,8L80.82,43.62a8,8,0,1,1-1.44-15.95l8-.73A43,43,0,0,0,16.08,59.26Zm22.77,19.6a8,8,0,0,1,1.44,16l-10.08.91A42.95,42.95,0,0,0,102,63.86a8,8,0,0,1,16.08,0A59,59,0,0,1,22.3,110v4.18a8,8,0,0,1-16.08,0V89.14h0a8,8,0,0,1,7.29-8l25.31-2.3Z"/></svg>
+      <span>100% Money Back</span>
+      <p>You have 5 days to return</p>
+    </div>
+
+
+
+  </section>
+
+
+  <!--footer=================--------------------------->
+  <footer>
+    <div class="footer-container">
+      <!--**company-box-->
+      <div class="footer-company-box">
+        <!--logo-->
+        <a href="#" class="footer-logo">
+          <img src="images/log2.png" alt="logo">
+        </a>
+        <!--details-->
+        <p>Elevate your space with handcrafted pots designed for both beauty and durability. <br><strong style="color: #f74b65;">contact us!</strong></p>
+        <!--socials-->
+        <div class="footer-social">
+          <!--facebook-->
+          <a href="https://www.facebook.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height="1em" width="1em">
+            <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
+            </svg>
+          </a>
+          <!--insta-->
+          <a href="https://www.instagram.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="1em" width="1em">
+            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+            </svg>
+          </a>
+          <!--x-->
+          <a href="https://x.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em" width="1em">
+            <path fill="#none" stroke="#ffffff" stroke-width="30" 
+            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"/>
+            </svg>
+          </a>
+          <!--youtube-->
+          <a href="#">
+           <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 640 640"><path d="M633.468 192.038s-6.248-44.115-25.477-63.485c-24.366-25.477-51.65-25.642-64.123-27.118-89.493-6.52-223.904-6.52-223.904-6.52h-.236s-134.352 0-223.893 6.52c-12.52 1.523-39.768 1.63-64.123 27.118-19.24 19.37-25.358 63.485-25.358 63.485S-.012 243.806-.012 295.681v48.509c0 51.768 6.366 103.643 6.366 103.643s6.248 44.114 25.358 63.52c24.355 25.477 56.363 24.65 70.655 27.367 51.237 4.89 217.644 6.366 217.644 6.366s134.529-.237 224.022-6.638c12.52-1.477 39.756-1.63 64.123-27.119 19.24-19.37 25.476-63.532 25.476-63.532S640 396.03 640 344.154v-48.508c-.13-51.769-6.497-103.643-6.497-103.643l-.035.035zm-379.8 211.007V223.173L426.56 313.41l-172.892 89.635z"/></svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!--link-->
+      <div class="footer-link-box">
+        <strong>Explore</strong>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#category">Category</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Recent</a></li>
+        </ul>
+      </div>
+
+      <!--Membership -->
+      <div class="footer-membership">
+        <strong>Become a Member!</strong>
+        <p>
+         Enjoy exclusive benefits, early access to new arrivals, and members-only offers. 
+        </p>
+        <form class="membership-box">
+          <input type="email" placeholder="user@gmail.com" name="membership" required>
+          <button>Membership</button>
+        </form>
+
+        
+
+      </div>
+    </div>
+
+    <!--bottom-->
+    <div class="footer-bottom">
+      <span>Made by Hanin idriss</span>
+      <span>&copy;copyright - Hanin Idriss </span>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!--script--------------------------------------js------>
+
+
+</body>
+</html>
